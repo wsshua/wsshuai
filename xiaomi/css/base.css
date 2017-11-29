@@ -1,0 +1,23 @@
+/*
+* @Author: MACHENIKE
+* @Date:   2017-11-20 10:53:46
+* @Last Modified by:   MACHENIKE
+* @Last Modified time: 2017-11-20 11:06:12
+*/
+/* 选择器{
+	属性：属性值;
+} */
+*{
+	margin: 0; /* 外边距 */
+	padding: 0; /* 内填充*/
+	list-style: none;/* 列表样式为没有*/
+	box-sizing: border-box;/*盒子模型为边框盒子;*/
+}
+a{
+	text-decoration: none;/*去掉a标签的下划线*/
+}
+img{
+	display: block;/*以块元素的方式展示*/
+	width: 100%;/*宽度是父元素的百分百*/
+	height: 100%;/*高度是父元素的百分百*/
+}
